@@ -1,8 +1,8 @@
 #!/usr/bin/env python3.7
 
-"""19_random_module.py.
+"""20_CSV_module.py.
 
-Nineteenth Program of the Socratica Sexy-Hologram-Human/Computer-Hybrid
+Twentieth Program of the Socratica Sexy-Hologram-Human/Computer-Hybrid
 Python Series.
 
 """
@@ -13,7 +13,7 @@ from datetime import datetime
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_20.Log",
+logging.basicConfig(filename="LOG_files/LOG_20.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')

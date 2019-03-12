@@ -11,7 +11,7 @@ import math
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_17.Log",
+logging.basicConfig(filename="LOG_files/LOG_17.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')
@@ -53,5 +53,17 @@ def quadratic_formula(a, b, c):
 roots = quadratic_formula(1, 0, -4)
 print(roots)
 
+
+print("""
+
 roots = quadratic_formula(1, 0, 1)
 print(roots)
+
+            Traceback (most recent call last):
+            File "./17_Logging.py", line 56, in <module>
+                roots = quadratic_formula(1, 0, 1)
+            File "./17_Logging.py", line 42, in quadratic_formula
+                root_1 = (-b + math.sqrt(disc)) / (2 * a)
+            ValueError: math domain error
+
+""")

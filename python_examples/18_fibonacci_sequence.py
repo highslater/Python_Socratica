@@ -12,7 +12,7 @@ from functools import lru_cache
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_18.Log",
+logging.basicConfig(filename="LOG_files/LOG_18.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')

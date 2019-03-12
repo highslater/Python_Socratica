@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.7
 
-"""19_random_module.py.
+"""21_random_walk.py.
 
 Nineteenth Program of the Socratica Sexy-Hologram-Human/Computer-Hybrid
 Python Series.
@@ -12,12 +12,12 @@ import random
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_21.Log",
+logging.basicConfig(filename="LOG_files/LOG_21.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')
 logger = logging.getLogger()
-logger.info("#21_rnadom_walk.py RUN / START")
+logger.info("#21_random_walk.py RUN / START")
 
 
 def random_walk(n):

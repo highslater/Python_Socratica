@@ -12,7 +12,7 @@ import random
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_19.Log",
+logging.basicConfig(filename="LOG_files/LOG_19.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='w')
