@@ -36,8 +36,8 @@ def read_file_timed(path):
     finally:
         stop_time = time.time()
         dt = stop_time - start_time
-        logger.info("Time Required for {file} = {time}".format(file=path,
-                                                               time=dt))
+        logger.info(("Time Required for"
+                     "{file} = {time}").format(file=path, time=dt))
 
 data1 = read_file_timed("../python_examples/files/ImperialMarch60.wav")
 
