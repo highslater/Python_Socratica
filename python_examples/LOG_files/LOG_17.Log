@@ -1,8 +1,0 @@
-INFO 2019-03-12 12:47:03,327 - # 17_Logging.py. RUN / START
-INFO 2019-03-12 12:47:03,327 - # quadratic_formula(1, 0,-4)
-DEBUG 2019-03-12 12:47:03,327 - # Compute the discriminant
-DEBUG 2019-03-12 12:47:03,327 - # Discriminant computed as: (16)
-DEBUG 2019-03-12 12:47:03,327 - # Compute the two roots
-DEBUG 2019-03-12 12:47:03,327 - # Roots computed as: (2.0, 2.0)
-DEBUG 2019-03-12 12:47:03,327 - # return the two roots as a tuple
-DEBUG 2019-03-12 12:47:03,327 - # Tuple returned as: (2.0, 2.0)

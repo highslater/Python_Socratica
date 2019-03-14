@@ -12,7 +12,7 @@ from math import pi
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_1.Log",
+logging.basicConfig(filename="circles.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')

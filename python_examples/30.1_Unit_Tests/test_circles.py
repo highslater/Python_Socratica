@@ -6,21 +6,21 @@ TEST Thirtieth Program of the Socratica Sexy-Hologram-Human/Computer-Hybrid
 Python Series.
 
 """
+# python3.7 -m unittest test_circles.py
 
-import logging
 import unittest
-from circles import circle_area
 from math import pi
-
+from circles import circle_area
+import logging
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 
-logging.basicConfig(filename="LOG_2.Log",
+logging.basicConfig(filename="test_circles.Log",
                     level=logging.DEBUG,
                     format=LOG_FORMAT,
                     filemode='a')
 logger = logging.getLogger()
-logger.info("#test_circles.py RUN / START")
+logger.debug("#test_circles.py RUN / START")
 
 
 class TestCircleArea(unittest.TestCase):
