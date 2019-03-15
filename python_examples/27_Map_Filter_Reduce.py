@@ -18,7 +18,7 @@ logging.basicConfig(filename="LOG_files/LOG_27.Log",
 logger = logging.getLogger()
 logger.info("27_Map_Filter_Reduce.py RUN / START")
 
-# ===== Map Function =====
+# ======= Map Function =======
 
 radii = [2, 5, 7.1, 0.3, 10]
 areas = []
