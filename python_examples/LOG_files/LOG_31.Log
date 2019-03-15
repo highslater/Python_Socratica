@@ -1,5 +1,0 @@
-INFO 2019-03-14 12:51:34,736 - #31_exceptions_tutorial.py RUN / START
-INFO 2019-03-14 12:51:34,739 - Time Required for../python_examples/files/ImperialMarch60.wav = 0.002532958984375
-INFO 2019-03-14 12:51:34,742 - Time Required for../python_examples/files/Implementing_MPLS.mp4 = 0.002584218978881836
-ERROR 2019-03-14 12:51:34,742 - [Errno 2] No such file or directory: '../python_examples/files/ImaginaryFile.wav'
-INFO 2019-03-14 12:51:34,742 - Time Required for../python_examples/files/ImaginaryFile.wav = 0.00013494491577148438
