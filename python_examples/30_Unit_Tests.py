@@ -28,3 +28,5 @@ def circle_area(r):
         raise ValueError("Nope. The RADIUS cannot be NEGATIVE")
 
     return pi * (r ** 2)
+
+print(circle_area(3))
